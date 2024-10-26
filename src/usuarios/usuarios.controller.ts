@@ -7,8 +7,8 @@ export class UsuariosController {
     constructor(private readonly usuariosService : UsuariosService){}
 
     @Get()
-    primerMetodo(){
-        return this.usuariosService.saludo()
+    MetodoUsuarios(){
+        return this.usuariosService.saludoUsuarios()
     }
 
     
